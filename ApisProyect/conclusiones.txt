@@ -1,0 +1,5 @@
+CONCLUSIONES DEL API TESTING DEL SITIO https://petstore.swagger.io/
+
+- Se detectaron fallas de seguridad que pueden ser críticas o bloquantes. Por ejemplo, un usuario que se registra
+   con todos sus datos vacíos o nulos.
+ 

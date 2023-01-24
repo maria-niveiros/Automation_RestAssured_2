@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 20.225 s <<< FAILURE! - in TestSuite
+registerWithEmptyUser(Tests.AUserTests.ARegisterTests)  Time elapsed: 0.83 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at Tests.AUserTests.ARegisterTests.registerWithEmptyUser(ARegisterTests.java:86)
+
+registerWithNullUser(Tests.AUserTests.ARegisterTests)  Time elapsed: 0.755 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at Tests.AUserTests.ARegisterTests.registerWithNullUser(ARegisterTests.java:100)
+
+failLoginUnregisteredEmail(Tests.AUserTests.BLoginTests)  Time elapsed: 0.788 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at Tests.AUserTests.BLoginTests.failLoginUnregisteredEmail(BLoginTests.java:121)
+
+failLoginUnregisteredPassword(Tests.AUserTests.BLoginTests)  Time elapsed: 0.766 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at Tests.AUserTests.BLoginTests.failLoginUnregisteredPassword(BLoginTests.java:135)
+
